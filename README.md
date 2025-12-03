@@ -1,36 +1,65 @@
+# Mood Tracker (Aplicación CLI en Python)
+
 ## Descripción
 
-Aplicación de línea de comandos desarrollada en Python para registrar y visualizar estados de ánimo diarios. Permite ingresar el estado emocional, añadir notas opcionales y consultar un historial básico. Es un proyecto diseñado para practicar control de flujo, estructuras de datos, modularidad, manejo de archivos y documentación técnica.
+Mood Tracker es una aplicación de línea de comandos desarrollada en Python para registrar, en un momento determinado del día, distintos factores relacionados con el bienestar: estado de ánimo, medicamentos, ejercicio, sueño, estrés, alimentación, consumo de sustancias y nivel de interacción social.
+
+En base a las respuestas, el programa calcula un puntaje total y promedio, entrega una evaluación general del estado del día y sugiere recomendaciones simples para mejorar hábitos.
+
+Este proyecto forma parte de mi proceso formativo en Python y está enfocado en practicar control de flujo, validaciones de entrada, lógica condicional y manejo de listas.
+
+---
 
 ## Contexto
 
-Este proyecto surgió como una exploración inicial para una herramienta simple de registro emocional utilizada en contextos clínicos. La idea proviene de una conversación con una profesional de la Unidad de Psiquiatría del Hospital de Coquimbo, donde se discutió la utilidad de un sistema básico para que los usuarios pudieran documentar su estado de ánimo y generar patrones de seguimiento.
+Este proyecto surgió como una exploración inicial de una herramienta sencilla para apoyar el registro emocional de pacientes en contextos clínicos. La idea nace a partir de una conversación con una profesional de la Unidad de Psiquiatría del Hospital de Coquimbo, donde se planteó la utilidad de contar con un sistema básico que permitiera observar, de manera simple, ciertos patrones diarios relacionados con el bienestar.
 
-## Características
+La versión actual es únicamente un prototipo de consola (CLI) con fines educativos y de práctica de programación, no una herramienta médica ni de uso clínico real.
 
-– Registro de estado de ánimo con opciones predeterminadas
-– Registro de comentarios adicionales
-– Guardado de entradas en un archivo
-– Visualización del historial
-– Validaciones básicas para evitar entradas incorrectas
-– Interfaz CLI simple y clara
+---
+
+## Características principales
+
+- Pregunta por:
+  - Estado de ánimo (escala del 1 al 10).
+  - Toma de medicamentos (sí/no).
+  - Actividad física (sí/no).
+  - Calidad del sueño (escala del 1 al 10).
+  - Nivel de estrés (sí/medianamente/no).
+  - Calidad de la alimentación (buena/regular/mala).
+  - Consumo de alcohol o drogas (sí/no).
+  - Socialización (sí/no).
+- Asigna un puntaje numérico a cada respuesta.
+- Calcula:
+  - Puntaje total.
+  - Puntaje promedio.
+- Entrega una evaluación general del día (por ejemplo: "Deprimido (Requiere atención)", "Estás bien", etc.).
+- Muestra recomendaciones básicas según los factores que aparecen más débiles (medicación, ejercicio, sueño, estrés, alimentación, consumo de sustancias, socialización).
+
+---
 
 ## Objetivos del proyecto
 
-– Practicar fundamentos de Python
-– Desarrollar lógica de programación
-– Trabajar con archivos y persistencia de datos
-– Mejorar modularidad del código
-– Documentar el proceso de forma profesional
-– Crear un prototipo funcional a partir de un requerimiento real
+- Practicar fundamentos de Python en un contexto cercano a un caso de uso real.
+- Trabajar con:
+  - Ciclos `while`.
+  - Validación de entrada del usuario.
+  - Estructuras condicionales (`if/elif/else`).
+  - Listas y operaciones de suma/promedio.
+- Desarrollar una aplicación CLI legible, simple y extensible.
+- Documentar el proyecto de forma clara y profesional.
+
+---
 
 ## Tecnologías utilizadas
 
-– Python 3
-– Estructuras de datos
-– Escritura/lectura de archivos
-– CLI
+- Python 3.x
+- Entrada/salida por consola (CLI)
 
-Estado actual
+---
 
-Versión inicial funcional en CLI.
+## Cómo ejecutar el proyecto
+
+1. Clonar este repositorio o descargar el archivo:
+
+(https://github.com/felipeperezcortes/mood-tracker-python.git)
