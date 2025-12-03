@@ -62,4 +62,4 @@ La versión actual es únicamente un prototipo de consola (CLI) con fines educat
 
 1. Clonar este repositorio o descargar el archivo:
 
-(https://github.com/felipeperezcortes/mood-tracker-python.git)
+https://github.com/felipeperezcortes/mood-tracker-python.git
