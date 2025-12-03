@@ -60,6 +60,6 @@ La versión actual es únicamente un prototipo de consola (CLI) con fines educat
 
 ## Cómo ejecutar el proyecto
 
-1. Clonar este repositorio o descargar el archivo:
-
-https://github.com/felipeperezcortes/mood-tracker-python.git
+1. Clonar este repositorio o descargar el archivo: https://github.com/felipeperezcortes/mood-tracker-python.git
+2. Ejectuar el script principal: mood-tracker-v01
+3. Seguir las instrucciones en la consola para completar el registro del día.
